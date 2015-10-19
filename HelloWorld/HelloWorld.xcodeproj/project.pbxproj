@@ -14,6 +14,7 @@
 		ADEB027E1BD4D7FC00577C19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEB027D1BD4D7FC00577C19 /* Images.xcassets */; };
 		ADEB02811BD4D7FC00577C19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADEB027F1BD4D7FC00577C19 /* LaunchScreen.xib */; };
 		ADEB028D1BD4D7FD00577C19 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEB028C1BD4D7FD00577C19 /* HelloWorldTests.m */; };
+		ADEB029B1BD50CB400577C19 /* SecondViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEB029A1BD50CB400577C19 /* SecondViewControler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		ADEB02861BD4D7FD00577C19 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEB028B1BD4D7FD00577C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADEB028C1BD4D7FD00577C19 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		ADEB02991BD50CB400577C19 /* SecondViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewControler.h; path = ../SecondViewControler.h; sourceTree = "<group>"; };
+		ADEB029A1BD50CB400577C19 /* SecondViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewControler.m; path = ../SecondViewControler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				ADEB02751BD4D7FC00577C19 /* AppDelegate.m */,
 				ADEB02771BD4D7FC00577C19 /* ViewController.h */,
 				ADEB02781BD4D7FC00577C19 /* ViewController.m */,
+				ADEB02991BD50CB400577C19 /* SecondViewControler.h */,
+				ADEB029A1BD50CB400577C19 /* SecondViewControler.m */,
 				ADEB027A1BD4D7FC00577C19 /* Main.storyboard */,
 				ADEB027D1BD4D7FC00577C19 /* Images.xcassets */,
 				ADEB027F1BD4D7FC00577C19 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				ADEB02791BD4D7FC00577C19 /* ViewController.m in Sources */,
 				ADEB02761BD4D7FC00577C19 /* AppDelegate.m in Sources */,
 				ADEB02731BD4D7FC00577C19 /* main.m in Sources */,
+				ADEB029B1BD50CB400577C19 /* SecondViewControler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +424,7 @@
 				ADEB02921BD4D7FD00577C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADEB02931BD4D7FD00577C19 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				ADEB02951BD4D7FD00577C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
