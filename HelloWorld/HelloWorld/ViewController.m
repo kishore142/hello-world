@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSString *n = NULL;
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

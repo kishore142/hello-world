@@ -14,6 +14,7 @@
 		ADEB027E1BD4D7FC00577C19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEB027D1BD4D7FC00577C19 /* Images.xcassets */; };
 		ADEB02811BD4D7FC00577C19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADEB027F1BD4D7FC00577C19 /* LaunchScreen.xib */; };
 		ADEB028D1BD4D7FD00577C19 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEB028C1BD4D7FD00577C19 /* HelloWorldTests.m */; };
+		ADEB02981BD4FE2A00577C19 /* myClass.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEB02971BD4FE2A00577C19 /* myClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		ADEB02861BD4D7FD00577C19 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEB028B1BD4D7FD00577C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADEB028C1BD4D7FD00577C19 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		ADEB02961BD4FE2A00577C19 /* myClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myClass.h; path = ../myClass.h; sourceTree = "<group>"; };
+		ADEB02971BD4FE2A00577C19 /* myClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myClass.m; path = ../myClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				ADEB02751BD4D7FC00577C19 /* AppDelegate.m */,
 				ADEB02771BD4D7FC00577C19 /* ViewController.h */,
 				ADEB02781BD4D7FC00577C19 /* ViewController.m */,
+				ADEB02961BD4FE2A00577C19 /* myClass.h */,
+				ADEB02971BD4FE2A00577C19 /* myClass.m */,
 				ADEB027A1BD4D7FC00577C19 /* Main.storyboard */,
 				ADEB027D1BD4D7FC00577C19 /* Images.xcassets */,
 				ADEB027F1BD4D7FC00577C19 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEB02981BD4FE2A00577C19 /* myClass.m in Sources */,
 				ADEB02791BD4D7FC00577C19 /* ViewController.m in Sources */,
 				ADEB02761BD4D7FC00577C19 /* AppDelegate.m in Sources */,
 				ADEB02731BD4D7FC00577C19 /* main.m in Sources */,
