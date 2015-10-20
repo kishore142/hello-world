@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSString *SAP = @"Iam done with sdk";
+    NSString *PAS = @"Iam done with ";
 }
 
 - (void)didReceiveMemoryWarning {
