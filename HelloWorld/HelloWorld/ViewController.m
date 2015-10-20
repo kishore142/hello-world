@@ -23,6 +23,8 @@
     NSString *PAS = @"Iam done with ";
     NSString *APS = @"Iam done with this bullshit";
     
+    NSString *sup = @"heloooooooo";
+    
 }
 
 - (void)didReceiveMemoryWarning {
