@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0527739D-DB59-4547-9F62-86BF12D620BC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>HelloWorld</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>24C046059F823366EA2903DE2727B8DA998024F2</key>
 		<string>https://github.com/kishore142/hello-world.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HelloWorld/HelloWorld.xcodeproj/project.xcworkspace</string>
+	<string>HelloWorld/HelloWorld.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>24C046059F823366EA2903DE2727B8DA998024F2</key>
