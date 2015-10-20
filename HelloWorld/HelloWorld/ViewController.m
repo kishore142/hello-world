@@ -21,6 +21,8 @@
     
     NSString *SAP = @"Iam done with sdk";
     NSString *PAS = @"Iam done with ";
+    NSString *APS = @"Iam done with this bullshit";
+    
 }
 
 - (void)didReceiveMemoryWarning {
